@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #faf9f7;
+  --color-secondary: #153247;
+}
+
+.bg-custom-gradient {
+  background-image: linear-gradient(rgb(64, 93, 116), rgb(21, 49, 71));
+}
+
+.com {
+  background-image: url(./assets/com.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+.dropMenu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  gap: 10px;
+}
