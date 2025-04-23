@@ -6,17 +6,7 @@ export default function HasSendMail() {
   const name = params.get("name");
 
   return (
-    <section className="h-screen flex flex-col items-center justify-center lg:mx-28 mx-10">
-      <canvas
-        width={1167}
-        height={420}
-        style={{
-          zIndex: 2,
-          position: "absolute",
-          pointerEvents: "none",
-          inset: 0,
-        }}
-      />
+    <section className="min-h-screen flex flex-col items-center justify-center lg:mx-28 mx-10">
       <h3 className="text-center text-3xl font-bold">Thank you for asking</h3>
       <div className="bg-white rounded-3xl flex flex-col items-center md:w-1/2 p-10 shadow-lg my-5">
         <div className="rounded-md bg-primary-100 p-3 mb-5">
